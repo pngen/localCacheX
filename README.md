@@ -18,14 +18,14 @@ LocalCacheX is a high-performance, embeddable key-value store designed for local
 │  restore    │    │              │    │  LRU Eviction │
 │  stats      │    │              │    │               │
 └─────────────┘    └──────────────┘    └───────────────┘
-                                      │
-                                      ▼
-                              ┌──────────────┐
-                              │   Metrics    │
-                              │              │
-                              │  Hits/Misses │
-                              │  Evictions   │
-                              └──────────────┘
+                                               │
+                                               ▼
+                                        ┌──────────────┐
+                                        │   Metrics    │
+                                        │              │
+                                        │  Hits/Misses │
+                                        │  Evictions   │
+                                        └──────────────┘
 </pre>
 
 ## Core Components
